@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Brandon Quon
+# Hi there 👋 I'm Brandon Quon
 
 # 💫 About Me:
 💪 I’m currently working on a Fitness PR Tracker web application with SQL<br>🌱 I’m currently learning Java and JavaScript<br>
