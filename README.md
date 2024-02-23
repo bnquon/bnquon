@@ -1,7 +1,7 @@
 #                       Hi there 👋 I'm Brandon Quon
 
 # 💫 About Me:
-💪 I’m currently working on a Fitness PR Tracker web application with SQL<br>🌱 I’m currently learning Java and JavaScript<br>
+💪 I’m currently working on a movie review site to learn React.js<br>🌱 I’m currently learning Java and React.js<br>
 
 
 ## 🌐 Socials:
