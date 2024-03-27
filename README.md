@@ -1,7 +1,7 @@
 #                       Hi there 👋 I'm Brandon Quon
 
 # 💫 About Me:
-🍿 I’m currently working on a movie review site to learn React.js<br>🌱 I’m currently learning Java and React.js<br>
+🍿 My most recent project was a full-stack movie review site, CineVerse<br>🌱 I’m currently learning Java and React.js<br>
 
 
 ## 🌐 Socials:
