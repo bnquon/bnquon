@@ -1,7 +1,7 @@
 #                       Hi there 👋 I'm Brandon Quon
 
 # 💫 About Me:
-🍿 My most recent project was a full-stack movie review site, CineVerse<br>🌱 I’m currently learning Java and React.js<br>
+🏫 I am currently finishing up a website for the SFU Gaming and Esports Club that has over 3800 members. The tech stack is Next.js, React.js, TypeScript, and Tailwind CSS.<br>
 
 
 ## 🌐 Socials:
