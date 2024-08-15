@@ -1,5 +1,5 @@
 # 💫 About Me:
-🏫 I am currently finishing up a website for the SFU Gaming and Esports Club that has over 3800 members. The tech stack is Next.js, React.js, TypeScript, and Tailwind CSS.<br>🌱 I’m currently learning assembly (x86-64), TypeScript, and Next.js.<br>⚡ Fun fact:  I love to weightlift and physical activity in general.
+🏫 I am currently building a PDF summarizer web-app using TypeScript, React.js, Next.js, Java, Spring Boot, Google Gemini API, and AWS (S3 and Lambda)⚡ Fun fact: I recently started running and my nearest goal is to run a 10km.
 
 
 ## 🌐 Socials:
