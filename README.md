@@ -1,5 +1,5 @@
 # 💫 About Me:
-🏫 I am currently building a PDF summarizer web-app using TypeScript, React.js, Next.js, Java, Spring Boot, Google Gemini API, and AWS (S3 and Lambda)  ⚡ Fun fact: I recently started running and my nearest goal is to run a 10km.
+🏫 I am currently building a PDF summarizer web-app using TypeScript, React.js, Next.js, Java, Spring Boot, Google Gemini API, and AWS (S3 and Lambda)\⚡ Fun fact: I recently started running and my nearest goal is to run a 10km.
 
 
 ## 🌐 Socials:
