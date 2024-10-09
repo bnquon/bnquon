@@ -1,5 +1,5 @@
 # 💫 About Me:
-🏫 I am currently working on a Notion clone using TypeScript, Next.js, React.js, Java, Spring Boot, AWS RDS, and some type of AI model. <br/>⚡ Fun fact: I recently started running and my nearest goal is to run a 10km.
+🏫 I am currently learning Go in and out of my Co-op, right now it's by making a fantasy basketball web scraper to notify users of top performers of the day. <br/>⚡ Fun fact: I recently started running and my nearest goal is to run a 10km.
 
 
 ## 🌐 Socials:
