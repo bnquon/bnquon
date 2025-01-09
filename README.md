@@ -1,5 +1,5 @@
 # 💫 About Me:
-🏫 I am currently learning Go in and out of my Co-op, right now it's by making a fantasy basketball web scraper to notify users of top performers of the day. <br/>⚡ Fun fact: I recently started running and my nearest goal is to run a 10km.
+🏫 I am currently working in React.js, TypeScript, and sometimes Go in my co-op. I recently finished making a fantasy basketball web scraper to notify users of top performers of the day. <br/>⚡ Fun fact: I recently started running and my nearest goal is to run a 10km.
 
 
 ## 🌐 Socials:
