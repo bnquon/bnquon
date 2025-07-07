@@ -1,6 +1,6 @@
 # 💫 About Me:
-🏫 I am currently working in React.js, TypeScript, and sometimes Go in my co-op. I recently finished making a fantasy basketball web scraper to notify users of top performers of the day. <br/>⚡ Fun fact: I recently started running and my nearest goal is to run a 10km.
-
+🏫 Currently working in React.js, TypeScript, and C# at my co-op. Additionally working with React Native as an App Development Team Lead at Enactus SFU for Unify!<br><br>
+🧑🏻‍💻 My most recent project was a job application dashboard but instead of tediously filling in spreadsheets or Notion forms, you can upload a screenshot of the job posting and OCR + Gemini will extract the necessary info. Take a look at in under my repos.<br>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Brandon-Quon) 
