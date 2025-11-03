@@ -3,7 +3,7 @@
 🧑🏻‍💻 Additionally serving as Technical Lead at SFU Blueprint and Mobile App Development Team Lead at Enactus SFU (Unify).<br>
 
 ## Resume Link
-[Updated as of 10/19/2025](https://drive.google.com/file/d/1sXauVyKbBZslZF0lC3stm60hlJkLgO7w/view?usp=sharing)
+[Updated as of 11/2/2025](https://drive.google.com/file/d/1Nguqu7H9m31gaALFjwA0cPbLNPbZd-9O/view?usp=sharing)
 
 
 ## 💡 Project Idea In Mind
