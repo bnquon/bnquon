@@ -5,10 +5,6 @@
 ## Resume Link
 [Updated as of 11/2/2025](https://drive.google.com/file/d/1TW_OTuWb_M6X0BZ8baG4md5U5yyuNuOH/view?usp=sharing)
 
-
-## 💡 Project Idea In Mind
-Mobile parking assistant app using ML to recognize street signs and determine parking eligibility. Stack: Kotlin (Android), Python + TensorFlow/ML Kit (on-device ML), Firebase, and gRPC.
-
 ## 🚀 Recent Notable Projects:
 
 [IntervU - Stormhacks Finalist (Top 3 / 220 Projects)](https://devpost.com/software/intervu-852wre)
