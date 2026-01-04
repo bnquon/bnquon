@@ -1,9 +1,9 @@
 # 💫 About Me:
-🏫 Currently a Software Engineer Co-op at Trulioo, working full-stack with C# (ASP.NET), React.js, and AWS. <br>
-🧑🏻‍💻 Additionally serving as Technical Lead at SFU Blueprint and Mobile App Development Team Lead at Enactus SFU (Unify).<br>
+🧑🏻‍💻 Serving as Technical Lead at SFU Blueprint and Mobile App Development Team Lead at Enactus SFU (Unify).<br>
+🏫 Past 2x Software Engineer Co-op, working full-stack on both occasions. <br>
 
 ## Resume Link
-[Updated as of 11/2/2025](https://drive.google.com/file/d/1TW_OTuWb_M6X0BZ8baG4md5U5yyuNuOH/view?usp=sharing)
+[Updated as of 1/3/2026](https://drive.google.com/file/d/1o_2Wx4TSpUHjjN421O-wMUArvHXEX-9i/view?usp=sharing)
 
 ## 🚀 Recent Notable Projects:
 
