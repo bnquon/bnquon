@@ -5,17 +5,6 @@
 ## Resume Link
 [Updated as of 1/3/2026](https://drive.google.com/file/d/1o_2Wx4TSpUHjjN421O-wMUArvHXEX-9i/view?usp=sharing)
 
-## 🚀 Recent Notable Projects:
-
-[IntervU - Stormhacks Finalist (Top 3 / 220 Projects)](https://devpost.com/software/intervu-852wre)
-- AI-powered mock interview platform that generates tailored interview questions based on your resume and target job description, with an integrated code compiler for technical assessments.
-- **Role:** Backend Architecture + Development, and Deployments
-- **Tech:** Go, MongoDB, Google Gemini, Piston Code Compiler, Render, Vercel
-
-[Job Application Tracker](https://github.com/bnquon/job-auto-tracker)
-- Streamlined job application management dashboard that automatically extracts job posting details from screenshots using OCR and AI, eliminating manual data entry into spreadsheets or forms.
-- **Tech:** TypeScript, React.js, Python, FastAPI, AWS (EC2, RDS), Docker, Google Gemini
-
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Brandon-Quon)
 
