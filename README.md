@@ -7,7 +7,7 @@
 
 ## Cool Things I've Built Recently (Demo's Included in the Repos)
 - [A web-app (Java Spring, React) to poll unread Gmail emails and categorize, review, and edit automated AI replies](https://github.com/bnquon/inboxAI)
-- [Backend for IntervU - an AI Interviewer - Stormhacks Finalist (Top 3 / 220 Projects) $2,500 in prizes](https://devpost.com/software/intervu-852wre)
+- [Backend for IntervU - an AI Interviewer - Stormhacks Finalist (Won $2,500, Top 3 / 220 Projects)](https://devpost.com/software/intervu-852wre)
 - [A chrome extension with 300+ installs to help users job searching on LinkedIn (discontinued 🥲)](https://github.com/bnquon/linkedin-job-counter)
 - [A dashboard (Python FastAPI, React) for users to upload screenshots of a job posting and auto add to a tracker](https://github.com/bnquon/job-auto-tracker)
 
