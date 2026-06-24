@@ -1,14 +1,14 @@
 # 💫 About Me:
-🧑🏻‍💻 Serving as Technical Lead at SFU Blueprint and Mobile App Development Team Lead at Enactus SFU (Unify).<br>
+🧑🏻‍💻 Serving as Technical Lead at SFU Blueprint and previously a Mobile App Development Team Lead at Enactus SFU (Unify) where I helped the project raise over $8,000.<br>
 🏫 Past 2x Software Engineer Co-op, working full-stack on both occasions. <br>
 
 ## Resume Link
-[Updated as of 2/5/2026](https://drive.google.com/file/d/1UkBnRg_kzRjQl3voc3UCseQOBq3Ysb0i/view?usp=sharing)
+[Updated as of 6/5/2026](https://drive.google.com/file/d/1sjvmicJUmzTXSTrIPtWZ4HVzM2ocX846/view?usp=sharing)
 
 ## Cool Things I've Built Recently (Demo's Included in the Repos)
 - [A web-app (Java Spring, React) to poll unread Gmail emails and categorize, review, and edit automated AI replies](https://github.com/bnquon/inboxAI)
-- [Backend for IntervU - an AI Interviewer - Stormhacks Finalist (Top 3 / 220 Projects)](https://devpost.com/software/intervu-852wre)
-- [A chrome extension with 200 installs to help users job searching on LinkedIn (discontinued 🥲)](https://github.com/bnquon/linkedin-job-counter)
+- [Backend for IntervU - an AI Interviewer - Stormhacks Finalist (Top 3 / 220 Projects) $2,500 in prizes](https://devpost.com/software/intervu-852wre)
+- [A chrome extension with 300+ installs to help users job searching on LinkedIn (discontinued 🥲)](https://github.com/bnquon/linkedin-job-counter)
 - [A dashboard (Python FastAPI, React) for users to upload screenshots of a job posting and auto add to a tracker](https://github.com/bnquon/job-auto-tracker)
 
 ## 🌐 Socials:
