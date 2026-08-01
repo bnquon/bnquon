@@ -3,7 +3,7 @@
 🏫 Past 2x Software Engineer Co-op, working full-stack on both occasions. <br>
 
 ## Resume Link
-[Updated as of 6/5/2026](https://drive.google.com/file/d/1sjvmicJUmzTXSTrIPtWZ4HVzM2ocX846/view?usp=sharing)
+[Updated as of 7/31/2026](https://drive.google.com/file/d/1uOn9MK9IAzT8prT3iYbRgOvunB6yGXb9/view?usp=sharing)
 
 ## Cool Things I've Built Recently (Demo's Included in the Repos)
 - [Web-app for Esports players to upload their VODs so they can collab with others to review it](https://github.com/bnquon/VodCoach)
