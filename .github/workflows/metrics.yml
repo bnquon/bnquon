@@ -27,7 +27,7 @@ jobs:
           config_padding: 0, 0
           config_timezone: America/Los_Angeles
 
-          # Recent languages
+          # Languages
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_limit: 5
@@ -38,10 +38,12 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_threshold: 0%
 
-          # Recent activity
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_limit: 4
-          plugin_activity_load: 100
-          plugin_activity_visibility: public
-          plugin_activity_filter: all
+          # Coding habits
+          plugin_habits: yes
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_charts: no
+
+          # Activity temporarily disabled
+          plugin_activity: no
