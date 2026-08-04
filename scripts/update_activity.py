@@ -1,33 +1,54 @@
 import json
 import os
+import urllib.parse
 import urllib.request
 
 USERNAME = "bnquon"
 TOKEN = os.environ["GH_TOKEN"]
+MAX_ACTIVITY = 5
 
-url = f"https://api.github.com/users/{USERNAME}/events/public?per_page=50"
 
-request = urllib.request.Request(
-    url,
-    headers={
-        "Authorization": f"Bearer {TOKEN}",
-        "Accept": "application/vnd.github+json",
-        "User-Agent": USERNAME,
-    },
-)
+def github_get(url):
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Authorization": f"Bearer {TOKEN}",
+            "Accept": "application/vnd.github+json",
+            "User-Agent": USERNAME,
+        },
+    )
 
-with urllib.request.urlopen(request) as response:
-    events = json.load(response)
+    with urllib.request.urlopen(request) as response:
+        return json.load(response)
+
 
 activity = []
+
+
+def add_activity(timestamp, line, key):
+    activity.append(
+        {
+            "timestamp": timestamp,
+            "line": line,
+            "key": key,
+        }
+    )
+
+
+# --------------------------------------------------
+# Regular public activity
+# --------------------------------------------------
+
+events = github_get(
+    f"https://api.github.com/users/{USERNAME}/events/public?per_page=50"
+)
 
 for event in events:
     event_type = event["type"]
     repo = event["repo"]["name"]
     repo_link = f"https://github.com/{repo}"
     payload = event["payload"]
-
-    line = None
+    timestamp = event["created_at"]
 
     if event_type == "PullRequestEvent":
         action = payload["action"]
@@ -37,15 +58,13 @@ for event in events:
         link = f"https://github.com/{repo}/pull/{number}"
 
         if action == "opened":
-            line = (
-                f"↳ opened [PR #{number}]({link}) in "
-                f"[{repo}]({repo_link})"
-            )
-
-        elif action == "closed" and pr.get("merged"):
-            line = (
-                f"↳ merged [PR #{number}]({link}) into "
-                f"[{repo}]({repo_link})"
+            add_activity(
+                timestamp,
+                (
+                    f"↳ opened [PR #{number}]({link}) in "
+                    f"[{repo}]({repo_link})"
+                ),
+                f"opened-pr:{repo}:{number}",
             )
 
     elif event_type == "PullRequestReviewEvent":
@@ -54,9 +73,13 @@ for event in events:
         number = pr["number"]
         link = f"https://github.com/{repo}/pull/{number}"
 
-        line = (
-            f"↳ reviewed [PR #{number}]({link}) in "
-            f"[{repo}]({repo_link})"
+        add_activity(
+            timestamp,
+            (
+                f"↳ reviewed [PR #{number}]({link}) in "
+                f"[{repo}]({repo_link})"
+            ),
+            f"reviewed-pr:{repo}:{number}",
         )
 
     elif event_type == "IssuesEvent":
@@ -66,29 +89,112 @@ for event in events:
             number = issue["number"]
             link = f"https://github.com/{repo}/issues/{number}"
 
-            line = (
-                f"↳ opened [issue #{number}]({link}) in "
-                f"[{repo}]({repo_link})"
+            add_activity(
+                timestamp,
+                (
+                    f"↳ opened [issue #{number}]({link}) in "
+                    f"[{repo}]({repo_link})"
+                ),
+                f"opened-issue:{repo}:{number}",
             )
 
-    if line and line not in activity:
-        activity.append(line)
 
-    if len(activity) == 5:
+# --------------------------------------------------
+# Merged PRs authored by you
+#
+# This is separate because when a maintainer merges
+# your PR, it usually does not appear as YOUR event.
+# --------------------------------------------------
+
+query = urllib.parse.quote(
+    f"author:{USERNAME} is:pr is:merged"
+)
+
+search_url = (
+    "https://api.github.com/search/issues"
+    f"?q={query}"
+    "&sort=updated"
+    "&order=desc"
+    "&per_page=15"
+)
+
+merged_results = github_get(search_url)
+
+for item in merged_results["items"]:
+    # Search results don't give us merged_at directly,
+    # but they include the API URL for the PR.
+    pr = github_get(item["pull_request"]["url"])
+
+    merged_at = pr.get("merged_at")
+
+    if not merged_at:
+        continue
+
+    number = pr["number"]
+    link = pr["html_url"]
+
+    repo = "/".join(
+        item["repository_url"].rstrip("/").split("/")[-2:]
+    )
+    repo_link = f"https://github.com/{repo}"
+
+    add_activity(
+        merged_at,
+        (
+            f"↳ merged [PR #{number}]({link}) into "
+            f"[{repo}]({repo_link})"
+        ),
+        f"merged-pr:{repo}:{number}",
+    )
+
+
+# --------------------------------------------------
+# Sort everything together by time
+# --------------------------------------------------
+
+activity.sort(
+    key=lambda item: item["timestamp"],
+    reverse=True,
+)
+
+
+# Remove duplicates while keeping chronological order
+seen = set()
+unique_activity = []
+
+for item in activity:
+    if item["key"] in seen:
+        continue
+
+    seen.add(item["key"])
+    unique_activity.append(item)
+
+    if len(unique_activity) == MAX_ACTIVITY:
         break
 
-if not activity:
-    activity = ["↳ no recent public activity"]
+
+if unique_activity:
+    lines = [item["line"] for item in unique_activity]
+else:
+    lines = ["↳ no recent public activity"]
+
+
+# --------------------------------------------------
+# Update README
+# --------------------------------------------------
 
 section = """<!-- ACTIVITY_START -->
 {}
-<!-- ACTIVITY_END -->""".format("  \n".join(activity))
+<!-- ACTIVITY_END -->""".format("  \n".join(lines))
 
 with open("README.md", "r", encoding="utf-8") as file:
     readme = file.read()
 
 start = readme.index("<!-- ACTIVITY_START -->")
-end = readme.index("<!-- ACTIVITY_END -->") + len("<!-- ACTIVITY_END -->")
+end = (
+    readme.index("<!-- ACTIVITY_END -->")
+    + len("<!-- ACTIVITY_END -->")
+)
 
 readme = readme[:start] + section + readme[end:]
 
