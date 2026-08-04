@@ -7,6 +7,10 @@ USERNAME = "bnquon"
 TOKEN = os.environ["GH_TOKEN"]
 MAX_ACTIVITY = 5
 
+HIDDEN_REPOS = {
+    "bnquon/bnquon",
+}
+
 
 def github_get(url):
     request = urllib.request.Request(
@@ -35,10 +39,7 @@ def add_activity(timestamp, line, key):
     )
 
 
-# --------------------------------------------------
-# Regular public activity
-# --------------------------------------------------
-
+# Public GitHub activity
 events = github_get(
     f"https://api.github.com/users/{USERNAME}/events/public?per_page=50"
 )
@@ -46,6 +47,10 @@ events = github_get(
 for event in events:
     event_type = event["type"]
     repo = event["repo"]["name"]
+
+    if repo in HIDDEN_REPOS:
+        continue
+
     repo_link = f"https://github.com/{repo}"
     payload = event["payload"]
     timestamp = event["created_at"]
@@ -69,6 +74,12 @@ for event in events:
 
     elif event_type == "PullRequestReviewEvent":
         pr = payload["pull_request"]
+
+        # Don't show "reviewed" for your own PRs
+        author = pr.get("user", {}).get("login", "")
+
+        if author.lower() == USERNAME.lower():
+            continue
 
         number = pr["number"]
         link = f"https://github.com/{repo}/pull/{number}"
@@ -99,13 +110,8 @@ for event in events:
             )
 
 
-# --------------------------------------------------
 # Merged PRs authored by you
-#
-# This is separate because when a maintainer merges
-# your PR, it usually does not appear as YOUR event.
-# --------------------------------------------------
-
+# This catches PRs merged by maintainers too.
 query = urllib.parse.quote(
     f"author:{USERNAME} is:pr is:merged"
 )
@@ -121,8 +127,6 @@ search_url = (
 merged_results = github_get(search_url)
 
 for item in merged_results["items"]:
-    # Search results don't give us merged_at directly,
-    # but they include the API URL for the PR.
     pr = github_get(item["pull_request"]["url"])
 
     merged_at = pr.get("merged_at")
@@ -136,6 +140,10 @@ for item in merged_results["items"]:
     repo = "/".join(
         item["repository_url"].rstrip("/").split("/")[-2:]
     )
+
+    if repo in HIDDEN_REPOS:
+        continue
+
     repo_link = f"https://github.com/{repo}"
 
     add_activity(
@@ -148,17 +156,14 @@ for item in merged_results["items"]:
     )
 
 
-# --------------------------------------------------
-# Sort everything together by time
-# --------------------------------------------------
-
+# Sort newest first
 activity.sort(
     key=lambda item: item["timestamp"],
     reverse=True,
 )
 
 
-# Remove duplicates while keeping chronological order
+# Remove exact duplicate activity entries
 seen = set()
 unique_activity = []
 
@@ -179,10 +184,7 @@ else:
     lines = ["↳ no recent public activity"]
 
 
-# --------------------------------------------------
 # Update README
-# --------------------------------------------------
-
 section = """<!-- ACTIVITY_START -->
 {}
 <!-- ACTIVITY_END -->""".format("  \n".join(lines))
