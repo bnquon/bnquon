@@ -1,7 +1,6 @@
 import json
 import os
 import urllib.request
-from datetime import datetime
 
 USERNAME = "bnquon"
 TOKEN = os.environ["GH_TOKEN"]
@@ -32,8 +31,9 @@ for event in events:
     if event_type == "PullRequestEvent":
         action = payload["action"]
         pr = payload["pull_request"]
+
         number = pr["number"]
-        link = pr["html_url"]
+        link = f"https://github.com/{repo}/pull/{number}"
 
         if action == "opened":
             line = f"↳ opened [PR #{number}]({link}) in `{repo}`"
@@ -45,25 +45,27 @@ for event in events:
         if payload["action"] == "opened":
             issue = payload["issue"]
             number = issue["number"]
-            link = issue["html_url"]
+            link = f"https://github.com/{repo}/issues/{number}"
 
             line = f"↳ opened [issue #{number}]({link}) in `{repo}`"
 
     elif event_type == "IssueCommentEvent":
         issue = payload["issue"]
+        number = issue["number"]
 
         if "pull_request" in issue:
-            number = issue["number"]
-            link = issue["html_url"]
-
+            link = f"https://github.com/{repo}/pull/{number}"
             line = f"↳ commented on [PR #{number}]({link}) in `{repo}`"
 
+        else:
+            link = f"https://github.com/{repo}/issues/{number}"
+            line = f"↳ commented on [issue #{number}]({link}) in `{repo}`"
+
     elif event_type == "PullRequestReviewEvent":
-        review = payload["review"]
         pr = payload["pull_request"]
 
         number = pr["number"]
-        link = pr["html_url"]
+        link = f"https://github.com/{repo}/pull/{number}"
 
         line = f"↳ reviewed [PR #{number}]({link}) in `{repo}`"
 
