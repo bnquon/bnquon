@@ -9,7 +9,11 @@ resume → [updated July 31, 2026](https://drive.google.com/file/d/1uOn9MK9IAzT8
 ### recent activity
 
 <!-- ACTIVITY_START -->
-loading...
+↳ commented on [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) in `beekeeper-studio/beekeeper-studio`  
+↳ opened [PR #4564](https://github.com/beekeeper-studio/beekeeper-studio/pull/4564) in `beekeeper-studio/beekeeper-studio`  
+↳ reviewed [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) in `beekeeper-studio/beekeeper-studio`  
+↳ commented on [issue #4266](https://github.com/beekeeper-studio/beekeeper-studio/issues/4266) in `beekeeper-studio/beekeeper-studio`  
+↳ opened [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) in `beekeeper-studio/beekeeper-studio`
 <!-- ACTIVITY_END -->
 
 ### projects
