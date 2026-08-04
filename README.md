@@ -2,7 +2,7 @@
 
 2x Software Engineer Intern · Technical Lead @ SFU Blueprint · previously Mobile App Development Team Lead @ Enactus SFU
 
-currently → contributing to open source with [**Zen Browser**](https://github.com/zen-browser/desktop) and [**Beekeeper Studio**](https://github.com/beekeeper-studio/beekeeper-studio)  
+currently → contributing to open source
 linkedin → [me](https://linkedin.com/in/Brandon-Quon)  
 resume → [updated July 31, 2026](https://drive.google.com/file/d/1uOn9MK9IAzT8prT3iYbRgOvunB6yGXb9/view)
 
