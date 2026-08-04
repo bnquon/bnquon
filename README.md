@@ -1,4 +1,4 @@
-## Brandon Quon
+## Brandon Quon <img src="./terminal-ghost.gif" alt="Terminal ghost" width="48" height="52" align="absmiddle">
 
 2x Software Engineer Intern · Technical Lead @ SFU Blueprint · previously Mobile App Development Team Lead @ Enactus SFU
 
