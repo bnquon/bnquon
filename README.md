@@ -6,6 +6,12 @@ currently → contributing to open source
 linkedin → [me](https://linkedin.com/in/Brandon-Quon)  
 resume → [updated July 31, 2026](https://drive.google.com/file/d/1uOn9MK9IAzT8prT3iYbRgOvunB6yGXb9/view)
 
+### recent activity
+
+<!-- ACTIVITY_START -->
+loading...
+<!-- ACTIVITY_END -->
+
 ### projects
 
 [**VodCoach**](https://github.com/bnquon/VodCoach) — collaborative VOD review for esports players
