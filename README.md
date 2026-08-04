@@ -6,7 +6,7 @@ currently → contributing to open source
 linkedin → [me](https://linkedin.com/in/Brandon-Quon)  
 resume → [updated July 31, 2026](https://drive.google.com/file/d/1uOn9MK9IAzT8prT3iYbRgOvunB6yGXb9/view)
 
-### recent activity
+### what i'm up to
 
 <!-- ACTIVITY_START -->
 ↳ commented on [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) in `beekeeper-studio/beekeeper-studio`  
