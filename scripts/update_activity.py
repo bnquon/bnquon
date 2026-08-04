@@ -5,7 +5,7 @@ import urllib.request
 USERNAME = "bnquon"
 TOKEN = os.environ["GH_TOKEN"]
 
-url = f"https://api.github.com/users/{USERNAME}/events/public?per_page=30"
+url = f"https://api.github.com/users/{USERNAME}/events/public?per_page=50"
 
 request = urllib.request.Request(
     url,
@@ -24,6 +24,7 @@ activity = []
 for event in events:
     event_type = event["type"]
     repo = event["repo"]["name"]
+    repo_link = f"https://github.com/{repo}"
     payload = event["payload"]
 
     line = None
@@ -36,30 +37,16 @@ for event in events:
         link = f"https://github.com/{repo}/pull/{number}"
 
         if action == "opened":
-            line = f"↳ opened [PR #{number}]({link}) in `{repo}`"
+            line = (
+                f"↳ opened [PR #{number}]({link}) in "
+                f"[{repo}]({repo_link})"
+            )
 
         elif action == "closed" and pr.get("merged"):
-            line = f"↳ merged [PR #{number}]({link}) in `{repo}`"
-
-    elif event_type == "IssuesEvent":
-        if payload["action"] == "opened":
-            issue = payload["issue"]
-            number = issue["number"]
-            link = f"https://github.com/{repo}/issues/{number}"
-
-            line = f"↳ opened [issue #{number}]({link}) in `{repo}`"
-
-    elif event_type == "IssueCommentEvent":
-        issue = payload["issue"]
-        number = issue["number"]
-
-        if "pull_request" in issue:
-            link = f"https://github.com/{repo}/pull/{number}"
-            line = f"↳ commented on [PR #{number}]({link}) in `{repo}`"
-
-        else:
-            link = f"https://github.com/{repo}/issues/{number}"
-            line = f"↳ commented on [issue #{number}]({link}) in `{repo}`"
+            line = (
+                f"↳ merged [PR #{number}]({link}) into "
+                f"[{repo}]({repo_link})"
+            )
 
     elif event_type == "PullRequestReviewEvent":
         pr = payload["pull_request"]
@@ -67,7 +54,22 @@ for event in events:
         number = pr["number"]
         link = f"https://github.com/{repo}/pull/{number}"
 
-        line = f"↳ reviewed [PR #{number}]({link}) in `{repo}`"
+        line = (
+            f"↳ reviewed [PR #{number}]({link}) in "
+            f"[{repo}]({repo_link})"
+        )
+
+    elif event_type == "IssuesEvent":
+        if payload["action"] == "opened":
+            issue = payload["issue"]
+
+            number = issue["number"]
+            link = f"https://github.com/{repo}/issues/{number}"
+
+            line = (
+                f"↳ opened [issue #{number}]({link}) in "
+                f"[{repo}]({repo_link})"
+            )
 
     if line and line not in activity:
         activity.append(line)
