@@ -9,11 +9,11 @@ resume → [updated July 31, 2026](https://drive.google.com/file/d/1uOn9MK9IAzT8
 ### what i'm up to
 
 <!-- ACTIVITY_START -->
-↳ merged [PR #1](https://github.com/bnquon/bnquon/pull/1) into [bnquon/bnquon](https://github.com/bnquon/bnquon)  
-↳ opened [PR #1](https://github.com/bnquon/bnquon/pull/1) in [bnquon/bnquon](https://github.com/bnquon/bnquon)  
 ↳ merged [PR #4564](https://github.com/beekeeper-studio/beekeeper-studio/pull/4564) into [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
 ↳ opened [PR #4564](https://github.com/beekeeper-studio/beekeeper-studio/pull/4564) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
-↳ reviewed [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
+↳ reviewed [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
+↳ opened [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
+↳ merged [PR #4559](https://github.com/beekeeper-studio/beekeeper-studio/pull/4559) into [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
 <!-- ACTIVITY_END -->
 <sub>updated automatically</sub>
 
