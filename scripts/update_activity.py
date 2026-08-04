@@ -74,16 +74,21 @@ for event in events:
 
     elif event_type == "PullRequestReviewEvent":
         pr = payload["pull_request"]
-
-        # Don't show "reviewed" for your own PRs
-        author = pr.get("user", {}).get("login", "")
-
-        if author.lower() == USERNAME.lower():
-            continue
-
+    
         number = pr["number"]
         link = f"https://github.com/{repo}/pull/{number}"
-
+    
+        # Fetch the full PR because the event payload can omit author info
+        full_pr = github_get(
+            f"https://api.github.com/repos/{repo}/pulls/{number}"
+        )
+    
+        author = full_pr["user"]["login"]
+    
+        # Never show reviews on your own PRs
+        if author.lower() == USERNAME.lower():
+            continue
+    
         add_activity(
             timestamp,
             (
