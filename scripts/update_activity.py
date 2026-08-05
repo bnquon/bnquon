@@ -114,6 +114,30 @@ for event in events:
                 f"opened-issue:{repo}:{number}",
             )
 
+    elif event_type == "IssueCommentEvent":
+        if payload["action"] == "created":
+            issue = payload["issue"]
+
+            # GitHub uses IssueCommentEvent for comments on both issues and PRs.
+            if "pull_request" in issue:
+                continue
+
+            # Only show comments on issues created by someone else.
+            if issue["user"]["login"].lower() == USERNAME.lower():
+                continue
+
+            number = issue["number"]
+            link = f"https://github.com/{repo}/issues/{number}"
+
+            add_activity(
+                timestamp,
+                (
+                    f"↳ commented on [issue #{number}]({link}) in "
+                    f"[{repo}]({repo_link})"
+                ),
+                f"commented-issue:{repo}:{number}",
+            )
+
 
 # Merged PRs authored by you
 # This catches PRs merged by maintainers too.
