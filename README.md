@@ -9,11 +9,11 @@ resume → [updated July 31, 2026](https://drive.google.com/file/d/1uOn9MK9IAzT8
 ### what i'm up to
 
 <!-- ACTIVITY_START -->
+↳ commented on [issue #3802](https://github.com/beekeeper-studio/beekeeper-studio/issues/3802) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
 ↳ opened [PR #4576](https://github.com/beekeeper-studio/beekeeper-studio/pull/4576) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
 ↳ merged [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) into [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
 ↳ merged [PR #4564](https://github.com/beekeeper-studio/beekeeper-studio/pull/4564) into [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
-↳ opened [PR #4564](https://github.com/beekeeper-studio/beekeeper-studio/pull/4564) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
-↳ opened [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
+↳ opened [PR #4564](https://github.com/beekeeper-studio/beekeeper-studio/pull/4564) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
 <!-- ACTIVITY_END -->
 
 ### projects
