@@ -4,7 +4,7 @@
 
 currently → contributing to open source  
 linkedin → [me](https://linkedin.com/in/Brandon-Quon)  
-resume → [updated July 31, 2026](https://drive.google.com/file/d/1uOn9MK9IAzT8prT3iYbRgOvunB6yGXb9/view)
+resume → [updated August 8, 2026](https://drive.google.com/file/d/137GSf4ztj5kZ5z-jSnSIJpRAL9e_W4YY/view?usp=sharing)
 
 ### what i'm up to
 
