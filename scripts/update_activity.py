@@ -9,6 +9,7 @@ MAX_ACTIVITY = 5
 
 HIDDEN_REPOS = {
     "bnquon/bnquon",
+    "bnquon/orson",
 }
 
 

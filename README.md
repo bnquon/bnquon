@@ -2,13 +2,12 @@
 
 2x Software Engineer Intern · Technical Lead @ SFU Blueprint · previously Mobile App Development Team Lead @ Enactus SFU
 
-currently → contributing to open source  
+currently → contributing to open source and building [orson](https://github.com/bnquon/orson) — postman for events 🐻  
 linkedin → [me](https://linkedin.com/in/Brandon-Quon)  
 
 ### what i'm up to
 
 <!-- ACTIVITY_START -->
-↳ reviewed [PR #1](https://github.com/bnquon/orson/pull/1) in [bnquon/orson](https://github.com/bnquon/orson)  
 ↳ opened [PR #4650](https://github.com/beekeeper-studio/beekeeper-studio/pull/4650) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
 ↳ opened [PR #4583](https://github.com/beekeeper-studio/beekeeper-studio/pull/4583) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
 ↳ commented on [issue #3802](https://github.com/beekeeper-studio/beekeeper-studio/issues/3802) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
