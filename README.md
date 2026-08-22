@@ -11,7 +11,8 @@ linkedin → [me](https://linkedin.com/in/Brandon-Quon)
 ↳ opened [PR #4650](https://github.com/beekeeper-studio/beekeeper-studio/pull/4650) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
 ↳ opened [PR #4583](https://github.com/beekeeper-studio/beekeeper-studio/pull/4583) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
 ↳ commented on [issue #3802](https://github.com/beekeeper-studio/beekeeper-studio/issues/3802) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
-↳ opened [PR #4576](https://github.com/beekeeper-studio/beekeeper-studio/pull/4576) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
+↳ opened [PR #4576](https://github.com/beekeeper-studio/beekeeper-studio/pull/4576) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
+↳ merged [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) into [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
 <!-- ACTIVITY_END -->
 
 ### projects
