@@ -151,7 +151,7 @@ search_url = (
     f"?q={query}"
     "&sort=updated"
     "&order=desc"
-    "&per_page=15"
+    "&per_page=100"
 )
 
 merged_results = github_get(search_url)
