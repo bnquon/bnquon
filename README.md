@@ -2,7 +2,7 @@
 
 2x Software Engineer Intern · Technical Lead @ SFU Blueprint · previously Mobile App Development Team Lead @ Enactus SFU
 
-currently → contributing to open source and building [orson](https://github.com/bnquon/orson) — postman for events 🐻  
+currently → contributing to open source and building [orson](https://github.com/bnquon/orson) - postman for events 🐻  
 linkedin → [me](https://linkedin.com/in/Brandon-Quon)  
 
 ### what i'm up to
