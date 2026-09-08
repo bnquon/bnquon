@@ -8,11 +8,11 @@ linkedin → [me](https://linkedin.com/in/Brandon-Quon)
 ### what i'm up to
 
 <!-- ACTIVITY_START -->
+↳ merged [PR #15285](https://github.com/zen-browser/desktop/pull/15285) into [zen-browser/desktop](https://github.com/zen-browser/desktop)  
 ↳ commented on [issue #14755](https://github.com/zen-browser/desktop/issues/14755) in [zen-browser/desktop](https://github.com/zen-browser/desktop)  
 ↳ opened [PR #15285](https://github.com/zen-browser/desktop/pull/15285) in [zen-browser/desktop](https://github.com/zen-browser/desktop)  
 ↳ merged [PR #15246](https://github.com/zen-browser/desktop/pull/15246) into [zen-browser/desktop](https://github.com/zen-browser/desktop)  
-↳ merged [PR #4650](https://github.com/beekeeper-studio/beekeeper-studio/pull/4650) into [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
-↳ merged [PR #4560](https://github.com/beekeeper-studio/beekeeper-studio/pull/4560) into [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
+↳ merged [PR #4650](https://github.com/beekeeper-studio/beekeeper-studio/pull/4650) into [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
 <!-- ACTIVITY_END -->
 
 ### projects
