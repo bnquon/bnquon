@@ -8,11 +8,11 @@ linkedin → [me](https://linkedin.com/in/Brandon-Quon)
 ### what i'm up to
 
 <!-- ACTIVITY_START -->
+↳ opened [PR #15324](https://github.com/zen-browser/desktop/pull/15324) in [zen-browser/desktop](https://github.com/zen-browser/desktop)  
+↳ commented on [issue #14938](https://github.com/zen-browser/desktop/issues/14938) in [zen-browser/desktop](https://github.com/zen-browser/desktop)  
 ↳ merged [PR #15307](https://github.com/zen-browser/desktop/pull/15307) into [zen-browser/desktop](https://github.com/zen-browser/desktop)  
 ↳ opened [PR #15307](https://github.com/zen-browser/desktop/pull/15307) in [zen-browser/desktop](https://github.com/zen-browser/desktop)  
-↳ merged [PR #15285](https://github.com/zen-browser/desktop/pull/15285) into [zen-browser/desktop](https://github.com/zen-browser/desktop)  
-↳ commented on [issue #14755](https://github.com/zen-browser/desktop/issues/14755) in [zen-browser/desktop](https://github.com/zen-browser/desktop)  
-↳ opened [PR #15285](https://github.com/zen-browser/desktop/pull/15285) in [zen-browser/desktop](https://github.com/zen-browser/desktop)
+↳ merged [PR #15285](https://github.com/zen-browser/desktop/pull/15285) into [zen-browser/desktop](https://github.com/zen-browser/desktop)
 <!-- ACTIVITY_END -->
 
 ### projects
