@@ -5,7 +5,7 @@ import urllib.request
 
 USERNAME = "bnquon"
 TOKEN = os.environ["GH_TOKEN"]
-MAX_ACTIVITY = 5
+MAX_ACTIVITY = 8
 
 HIDDEN_REPOS = {
     "bnquon/bnquon",
