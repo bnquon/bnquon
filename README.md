@@ -8,14 +8,14 @@ linkedin → [me](https://linkedin.com/in/Brandon-Quon)
 ### what i'm up to
 
 <!-- ACTIVITY_START -->
-↳ merged [PR #4752](https://github.com/beekeeper-studio/beekeeper-studio/pull/4752) into [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
-↳ commented on [issue #4735](https://github.com/beekeeper-studio/beekeeper-studio/issues/4735) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
-↳ opened [PR #4752](https://github.com/beekeeper-studio/beekeeper-studio/pull/4752) in [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)  
-↳ merged [PR #15324](https://github.com/zen-browser/desktop/pull/15324) into [zen-browser/desktop](https://github.com/zen-browser/desktop)  
-↳ opened [PR #15324](https://github.com/zen-browser/desktop/pull/15324) in [zen-browser/desktop](https://github.com/zen-browser/desktop)  
-↳ commented on [issue #14938](https://github.com/zen-browser/desktop/issues/14938) in [zen-browser/desktop](https://github.com/zen-browser/desktop)  
-↳ merged [PR #15307](https://github.com/zen-browser/desktop/pull/15307) into [zen-browser/desktop](https://github.com/zen-browser/desktop)  
-↳ opened [PR #15307](https://github.com/zen-browser/desktop/pull/15307) in [zen-browser/desktop](https://github.com/zen-browser/desktop)
+↳ opened [PR #5](https://github.com/Mark-Vu/fare-frontend/pull/5) in [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
+↳ opened [PR #7](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/7) in [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
+↳ merged [PR #4](https://github.com/Mark-Vu/fare-frontend/pull/4) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
+↳ merged [PR #6](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/6) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
+↳ opened [PR #4](https://github.com/Mark-Vu/fare-frontend/pull/4) in [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
+↳ opened [PR #6](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/6) in [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
+↳ merged [PR #5](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/5) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
+↳ merged [PR #3](https://github.com/Mark-Vu/fare-frontend/pull/3) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)
 <!-- ACTIVITY_END -->
 
 ### projects
