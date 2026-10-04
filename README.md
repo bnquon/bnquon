@@ -8,14 +8,14 @@ linkedin → [me](https://linkedin.com/in/Brandon-Quon)
 ### what i'm up to
 
 <!-- ACTIVITY_START -->
+↳ merged [PR #8](https://github.com/Mark-Vu/fare-frontend/pull/8) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
+↳ opened [PR #8](https://github.com/Mark-Vu/fare-frontend/pull/8) in [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
+↳ merged [PR #7](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/7) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
+↳ merged [PR #5](https://github.com/Mark-Vu/fare-frontend/pull/5) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
 ↳ opened [PR #5](https://github.com/Mark-Vu/fare-frontend/pull/5) in [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
 ↳ opened [PR #7](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/7) in [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
 ↳ merged [PR #4](https://github.com/Mark-Vu/fare-frontend/pull/4) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
-↳ merged [PR #6](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/6) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
-↳ opened [PR #4](https://github.com/Mark-Vu/fare-frontend/pull/4) in [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
-↳ opened [PR #6](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/6) in [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
-↳ merged [PR #5](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/5) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
-↳ merged [PR #3](https://github.com/Mark-Vu/fare-frontend/pull/3) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)
+↳ merged [PR #6](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/6) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)
 <!-- ACTIVITY_END -->
 
 ### projects
