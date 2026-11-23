@@ -8,14 +8,14 @@ linkedin → [me](https://linkedin.com/in/Brandon-Quon)
 ### what i'm up to
 
 <!-- ACTIVITY_START -->
+↳ opened [issue #6](https://github.com/sfusurge/JourneyHacks27/issues/6) in [sfusurge/JourneyHacks27](https://github.com/sfusurge/JourneyHacks27)  
+↳ opened [issue #5](https://github.com/sfusurge/JourneyHacks27/issues/5) in [sfusurge/JourneyHacks27](https://github.com/sfusurge/JourneyHacks27)  
+↳ opened [issue #4](https://github.com/sfusurge/JourneyHacks27/issues/4) in [sfusurge/JourneyHacks27](https://github.com/sfusurge/JourneyHacks27)  
+↳ opened [issue #3](https://github.com/sfusurge/JourneyHacks27/issues/3) in [sfusurge/JourneyHacks27](https://github.com/sfusurge/JourneyHacks27)  
+↳ opened [issue #2](https://github.com/sfusurge/JourneyHacks27/issues/2) in [sfusurge/JourneyHacks27](https://github.com/sfusurge/JourneyHacks27)  
+↳ opened [issue #1](https://github.com/sfusurge/JourneyHacks27/issues/1) in [sfusurge/JourneyHacks27](https://github.com/sfusurge/JourneyHacks27)  
 ↳ merged [PR #8](https://github.com/Mark-Vu/fare-frontend/pull/8) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
-↳ merged [PR #7](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/7) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
-↳ merged [PR #5](https://github.com/Mark-Vu/fare-frontend/pull/5) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
-↳ merged [PR #4](https://github.com/Mark-Vu/fare-frontend/pull/4) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
-↳ merged [PR #6](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/6) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
-↳ merged [PR #5](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/5) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)  
-↳ merged [PR #3](https://github.com/Mark-Vu/fare-frontend/pull/3) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)  
-↳ merged [PR #2](https://github.com/Mark-Vu/fare-frontend/pull/2) into [Mark-Vu/fare-frontend](https://github.com/Mark-Vu/fare-frontend)
+↳ merged [PR #7](https://github.com/kimtjdaniel/fare-orchestrator-service/pull/7) into [kimtjdaniel/fare-orchestrator-service](https://github.com/kimtjdaniel/fare-orchestrator-service)
 <!-- ACTIVITY_END -->
 
 ### projects
